@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&display=swap');
+*
+{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+.navBar
+{
+  background-color: transparent;
+  width: 100%;
+}
+.bttn_list
+{
+  
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.nav_bttn
+{
+  color: white;
+  font-size: large;
+  padding-right: 10%;
+}
+
+
+.title
+{
+  font-family: 'Pacifico', cursive;
+  color:white;
+  display: inline-block;
+  float: left;
+  padding-left: 50px;
+}
+
+.wrapper
+{
+  background: #0423F6;
+  height: 100vh;
+}
+
+.def_contain
+{
+  background-color: #0423F6;
+  padding-top: 20px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.name
+{
+  font-size:100px;
+  color: white;
+}
