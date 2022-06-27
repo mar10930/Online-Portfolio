@@ -1,0 +1,43 @@
+.project_title
+{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color: white;
+    font-size: 40px;
+    border-bottom: solid 5px;
+    width: fit-content;
+}
+.projects
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#0423F6;
+}
+
+.pokedex_img
+{
+    padding-top: 25px;
+}
+
+.tic_tac
+{
+    padding-top: 25px;
+}
+
+.project_desc
+{
+    list-style-position: inside;
+    list-style: none;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    text-align: left;
+    padding-left: 10%;
+}
+
+
+.project
+{
+    background-color: white;
+    width: 28%;
+    text-align: center;
+    padding-top: 20px;
+}

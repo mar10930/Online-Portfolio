@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&family=Patua+One&family=Tiro+Devanagari+Sanskrit&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.title_div
+{
+    text-align: left;
+    padding-left: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title_AboutMe
+{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color: #060368;
+    font-size: 40px;
+    border-bottom: solid 5px;
+    width: fit-content;
+
+}
+
+.first_AboutMe
+{
+    background-color:white;
+    width:100%;
+}
+
+.second_AboutMe
+{
+    background-color: white;
+    width: 100%;
+    margin-right: 25px;
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 150px;
+
+}
+
+.description
+{
+    background-color: #0423F6;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.desc
+{
+    color: white;
+    font-size: large;
+    text-align: left;
+}
