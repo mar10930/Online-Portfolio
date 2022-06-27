@@ -1,3 +1,8 @@
+.project_div
+{
+    padding-bottom: 50px;
+}
+
 .project_title
 {
     font-family: 'Tiro Devanagari Sanskrit', serif;
@@ -12,6 +17,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     background-color:#0423F6;
+    width: fit-content;
 }
 
 .pokedex_img
@@ -30,7 +36,7 @@
     list-style: none;
     font-family: 'Tiro Devanagari Sanskrit', serif;
     text-align: left;
-    padding-left: 10%;
+    padding: 20px;
 }
 
 
@@ -41,3 +47,33 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.project_point
+{
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.button_div
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+#website_bttn
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+

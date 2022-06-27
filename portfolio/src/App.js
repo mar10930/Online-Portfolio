@@ -3,6 +3,8 @@ import "./App.css";
 import TypeAnimation from 'react-type-animation';
 import AboutMe from './AboutMe';
 import Projects from './Projects'
+import {GiHamburgerMenu} from 'react-icons/gi';
+
 
 function App()
 {
@@ -15,6 +17,7 @@ function App()
             <li className="nav_bttn">About Me</li>
             <li className="nav_bttn">Projects</li>
             <li className="nav_bttn">Skills</li>
+            <GiHamburgerMenu className="mobile_menu" size={25}/>
           </ul>
         </nav>
         <div className="def_contain">
@@ -37,7 +40,7 @@ function App()
               and is always ready to learn something new.
             </p>
           </div>
-          <button className="resume_button"><b>Download Resume</b></button>
+          <button className="button"><b>Download Resume</b></button>
         </div>
       </div>
       <AboutMe/>

@@ -24,7 +24,11 @@
   list-style: none;
   justify-content: flex-end;
   padding-top: 10px;
+  padding-right: 10px;
+  color: white;
 }
+
+
 .nav_bttn
 {
   color: white;
@@ -86,12 +90,12 @@
   text-align: center;
 }
 
-.resume_button
+.button
 {
   background-color: #0019C5;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 60px;
   padding-right: 60px;
   border-radius: 50px;
@@ -99,7 +103,7 @@
   transition: ease-out 0.5s;
 }
 
-.resume_button:hover
+.button:hover
 {
   box-shadow: inset 400px 0 0 0 #0501B4;;
 }

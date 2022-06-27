@@ -1,7 +1,6 @@
 import React from "react";
 import './aboutMe.css';
-import asu from "./ASU-logo.png";
-
+import asu from "./images/ASU-logo.png";
 export default function AboutMe()
 {
 
