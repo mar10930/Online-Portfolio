@@ -3,6 +3,7 @@ import "./App.css";
 import TypeAnimation from 'react-type-animation';
 import AboutMe from './AboutMe';
 import Projects from './Projects'
+import Skills from './Skills'
 import {GiHamburgerMenu} from 'react-icons/gi';
 
 
@@ -45,6 +46,7 @@ function App()
       </div>
       <AboutMe/>
       <Projects/>
+      <Skills/>
     </div>
   );
 }

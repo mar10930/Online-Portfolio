@@ -45,9 +45,6 @@ export default function Project()
                         </div>
                     </div>
                 </div>
-                <div className="project">
-                    <h2>Weather and News Site</h2>
-                </div>
             </div>
         </div>
     )
