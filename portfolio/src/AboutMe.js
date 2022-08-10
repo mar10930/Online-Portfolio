@@ -1,10 +1,13 @@
 import React,{useState} from "react";
 import './aboutMe.css';
 import asu from "./images/ASU-logo.png";
-export default function AboutMe()
+import {Element} from "react-scroll";
+function AboutMe(props,ref)
 {
 
+
     return(
+        <Element id="about_section">
             <div className="about_me">
                 <div className="first_AboutMe">
                     <div className="title_div">
@@ -28,6 +31,10 @@ export default function AboutMe()
                     </div>
                 </div>
             </div>
+        </Element>
     )
+
+
 }
+export default React.forwardRef(AboutMe);
 
