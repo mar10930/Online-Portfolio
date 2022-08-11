@@ -15,6 +15,8 @@
 {
   background-color: transparent;
   width: 100%;
+  position: fixed;
+  background-color: #0423F6;
 }
 .bttn_list
 {
@@ -25,6 +27,11 @@
   justify-content: flex-end;
   padding-top: 10px;
   color: white;
+}
+
+.mobile_icon
+{
+  display: none;
 }
 
 .mobile_menu
@@ -106,7 +113,6 @@
   padding-bottom: 15px;
   padding-left: 60px;
   padding-right: 60px;
-  border-radius: 50px;
   font-size: large;
   transition: ease-out 0.5s;
 }
@@ -114,6 +120,24 @@
 .button:hover
 {
   box-shadow: inset 400px 0 0 0 #0501B4;;
+}
+
+.socials_list
+{
+  list-style: none;
+
+}
+
+.social{
+  display: inline;
+  padding-right: 15px;
+}
+
+
+.social_logo
+{
+  cursor: pointer;
+  color: white;
 }
 
 @media (max-width:550px)
@@ -127,9 +151,38 @@
     display: none;
   }
 
-  .mobile_menu
+  .mobile_icon
   {
     display:block;
+    padding-right: 10%;
   }
+
+  .mobile_menu
+  {
+    background-color: #0423F6;
+    width: 100%;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile_item
+  {
+    color:white;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mobile_item:hover
+  {
+    cursor: pointer;
+    border-bottom: white solid;
+    border-width: 5px;
+  }
+
 }
 
